@@ -1,0 +1,574 @@
+/* ==========================
+   LARGE LAPTOPS
+========================== */
+
+@media screen and (max-width:1400px){
+
+.hero-right h1{
+
+font-size:52px;
+
+}
+
+.hero-right h2{
+
+font-size:22px;
+
+}
+.hero-right {
+    text-align: center; /* ✅ centers everything inside */
+}
+
+.social-links {
+    margin: 15px auto;
+    display: flex;
+    justify-content: center; /* ✅ centers icons */
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.social-links a {
+    font-size: 24px;
+    color: #c2eb0f;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #463434;
+    transform: scale(1.2);
+}
+
+}
+
+/* ==========================
+   LAPTOP
+========================== */
+
+@media screen and (max-width:1200px){
+
+.sidebar{
+
+width:240px;
+
+}
+
+.content{
+
+padding:20px;
+
+}
+
+.hero-section{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+.hero-buttons{
+
+justify-content:center;
+
+}
+
+.metrics{
+
+grid-template-columns:
+repeat(2,1fr);
+
+}
+
+.skills-grid{
+
+grid-template-columns:
+repeat(2,1fr);
+
+}
+
+}
+
+/* ==========================
+   TABLET
+========================== */
+
+@media screen and (max-width:992px){
+
+.dashboard{
+
+flex-direction:column;
+
+}
+
+.sidebar{
+
+width:100%;
+
+height:auto;
+
+position:relative;
+
+border-right:none;
+
+border-bottom:1px solid var(--border);
+
+padding:20px;
+
+}
+
+.logo{
+
+text-align:center;
+
+margin-bottom:20px;
+
+}
+
+.sidebar nav{
+
+flex-direction:row;
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+gap:10px;
+
+}
+
+.sidebar nav a{
+
+padding:12px 15px;
+
+font-size:14px;
+
+}
+
+.hero-section{
+
+padding:25px;
+
+}
+
+.profile-ring{
+
+width:220px;
+height:220px;
+
+}
+
+.hero-right h1{
+
+font-size:42px;
+
+}
+
+.hero-right h2{
+
+font-size:20px;
+
+}
+
+.metrics{
+
+grid-template-columns:
+repeat(2,1fr);
+
+}
+
+.contact-grid{
+
+grid-template-columns:
+1fr;
+
+}
+
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media screen and (max-width:768px){
+
+.topbar{
+
+flex-direction:column;
+
+gap:15px;
+
+text-align:center;
+
+}
+
+.hero-section{
+
+padding:20px;
+
+gap:30px;
+
+}
+
+.profile-ring{
+
+width:180px;
+height:180px;
+
+}
+
+.hero-right h1{
+
+font-size:34px;
+
+}
+
+.hero-right h2{
+
+font-size:18px;
+
+}
+
+.hero-right p{
+
+font-size:14px;
+
+}
+
+.hero-buttons{
+
+flex-direction:column;
+
+width:100%;
+
+}
+
+.btn-primary,
+.btn-secondary{
+
+width:100%;
+
+text-align:center;
+
+}
+
+.metrics{
+
+grid-template-columns:
+1fr;
+
+}
+
+.metric-card{
+
+padding:20px;
+
+}
+
+.metric-card h2{
+
+font-size:32px;
+
+}
+
+.skills-grid{
+
+grid-template-columns:
+1fr;
+
+}
+
+.vault{
+
+grid-template-columns:
+1fr;
+
+}
+
+.section-card{
+
+padding:20px;
+
+}
+
+.analysis-panel{
+
+padding:20px;
+
+}
+
+.timeline-item{
+
+padding-left:15px;
+
+}
+
+.contact-grid{
+
+grid-template-columns:
+1fr;
+
+}
+
+}
+
+/* ==========================
+   SMALL MOBILE
+========================== */
+
+@media screen and (max-width:480px){
+
+.logo h1{
+
+font-size:22px;
+
+}
+
+.logo span{
+
+font-size:10px;
+
+}
+
+.sidebar nav{
+
+gap:6px;
+
+}
+
+.sidebar nav a{
+
+font-size:12px;
+
+padding:10px;
+
+}
+
+.hero-right h1{
+
+font-size:28px;
+
+}
+
+.hero-right h2{
+
+font-size:16px;
+
+}
+
+.hero-right p{
+
+font-size:13px;
+
+line-height:1.6;
+
+}
+
+.badge{
+
+font-size:12px;
+
+padding:8px 12px;
+
+}
+
+.clock{
+
+font-size:16px;
+
+}
+
+.metric-card h2{
+
+font-size:28px;
+
+}
+
+.metric-card p{
+
+font-size:13px;
+
+}
+
+.section-card h2{
+
+font-size:18px;
+
+}
+
+.analysis-panel h2{
+
+font-size:18px;
+
+}
+
+.certificate-card{
+
+padding:18px;
+
+font-size:14px;
+
+}
+
+.contact-grid div{
+
+font-size:13px;
+
+}
+
+}
+
+/* ==========================
+   EXTRA SMALL DEVICES
+========================== */
+
+@media screen and (max-width:360px){
+
+.hero-right h1{
+
+font-size:24px;
+
+}
+
+.hero-right h2{
+
+font-size:14px;
+
+}
+
+.hero-right p{
+
+font-size:12px;
+
+}
+
+.btn-primary,
+.btn-secondary{
+
+padding:12px;
+
+font-size:13px;
+
+}
+
+.sidebar nav a{
+
+font-size:11px;
+
+}
+
+.metric-card h2{
+
+font-size:24px;
+
+}
+
+}
+
+/* ==========================
+   LANDSCAPE PHONES
+========================== */
+
+@media screen and
+(max-height:500px)
+and
+(orientation:landscape){
+
+.sidebar{
+
+position:relative;
+
+height:auto;
+
+}
+
+.hero-section{
+
+flex-direction:row;
+
+}
+
+.profile-ring{
+
+width:140px;
+height:140px;
+
+}
+
+.hero-right h1{
+
+font-size:28px;
+
+}
+
+.hero-right h2{
+
+font-size:14px;
+
+}
+
+}
+
+/* ==========================
+   TOUCH DEVICES
+========================== */
+
+@media (hover:none){
+
+.skill-card:hover,
+.metric-card:hover,
+.certificate-card:hover,
+.contact-grid div:hover{
+
+transform:none;
+
+}
+
+}
+/* ==========================
+   MOBILE SIDEBAR
+========================== */
+
+@media(max-width:992px){
+
+#menuToggle{
+
+display:block;
+
+}
+
+.sidebar{
+
+position:fixed;
+
+left:-320px;
+
+top:0;
+
+width:280px;
+
+height:100vh;
+
+z-index:1000;
+
+transition:.4s;
+
+overflow-y:auto;
+
+}
+
+.sidebar.mobile-open{
+
+left:0;
+
+}
+
+.content{
+
+width:100%;
+
+padding-top:80px;
+
+}
+
+}

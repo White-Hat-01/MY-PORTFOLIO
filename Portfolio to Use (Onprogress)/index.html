@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>My Portfolio | Strategic Planning & Execution</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+/* SOCIAL LINKS */
+.social-links {
+    margin-top: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    font-size: 22px;
+    color: #00f7ff;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #ffffff;
+    transform: scale(1.2);
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="loader">
+    <div class="loader-content">
+        <h1>MY PORTFOLIO</h1>
+        <p>INITIALIZING SYSTEM...</p>
+        <div class="loader-bar">
+            <div class="loader-progress"></div>
+        </div>
+        <span id="loadingPercent">0%</span>
+    </div>
+</div>
+
+<div class="background-grid"></div>
+
+<div class="dashboard">
+
+<aside class="sidebar">
+    <div class="logo">
+        <h1>MY PORTFOLIO</h1>
+        <span>Strategic • Planning • Execution</span>
+    </div>
+
+    <nav>
+        <a href="#home" class="active"><i class="fas fa-home"></i> Home</a>
+        <a href="#profile"><i class="fas fa-user"></i> Profile</a>
+        <a href="#about"><i class="fas fa-id-card"></i> About Me</a>
+        <a href="#certificates"><i class="fas fa-certificate"></i> Certificates</a>
+        <a href="#expertise"><i class="fas fa-brain"></i> Expertise</a>
+        <a href="#education"><i class="fas fa-graduation-cap"></i> Education</a>
+        <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+    </nav>
+</aside>
+
+<main class="content">
+
+<header class="topbar">
+    <div class="system-status">
+        <span class="status-dot"></span> ONLINE
+    </div>
+
+    <div class="clock">
+        <span id="liveClock">00:00:00</span>
+    </div>
+</header>
+
+<section id="home" class="hero-section">
+
+    <div class="hero-left">
+        <div class="profile-ring">
+            <img src="assets/Headshot.jpg" alt="Profile">
+        </div>
+    </div>
+
+    <div class="hero-right">
+
+        <span class="badge">AVAILABLE FOR OPPORTUNITIES</span>
+
+        <h1>
+            JOHN CYRIL R. DE VERA
+        </h1>
+
+       <div class="social-links">
+    <a href="https://www.linkedin.com/in/john-cyril-de-vera-413347363/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+    </a>
+
+    <a href="https://www.facebook.com/john.cyril.de.vera.2024/" target="_blank">
+        <i class="fab fa-facebook"></i>
+    </a>
+
+    <a href="https://github.com/White-Hat-01" target="_blank">
+        <i class="fab fa-github"></i>
+    </a>
+        </div>
+
+        <h2>
+            IT Support<br>
+            Junior Project Manager<br>
+            Junior Business Analyst<br>
+            Junior System Analyst
+        </h2>
+
+        <p>
+            Adaptable Information Technology professional
+            specializing in strategic planning,
+            quality assurance,
+            documentation management,
+            process improvement,
+            and technology-driven business solutions.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="assets/MYRESUME.pdf" download class="btn-primary">
+                Download Resume
+            </a>
+
+            <a href="#contact" class="btn-secondary">
+                Contact Me
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="metrics">
+    <div class="metric-card">
+        <h2 data-target="5">0</h2>
+        <p>Certificates</p>
+    </div>
+
+    <div class="metric-card">
+        <h2 data-target="4">0</h2>
+        <p>Projects</p>
+    </div>
+
+    <div class="metric-card">
+        <h2 data-target="2">0</h2>
+        <p>Experience</p>
+    </div>
+
+    <div class="metric-card">
+        <h2 data-target="100">0</h2>
+        <p>Readiness Score</p>
+    </div>
+</section>
+
+<section class="analysis-panel">
+    <h2>AI ANALYSIS</h2>
+
+    <div class="analysis-item">
+        <span>Leadership</span>
+        <div class="bar"><div style="width:96%"></div></div>
+    </div>
+
+    <div class="analysis-item">
+        <span>Planning</span>
+        <div class="bar"><div style="width:98%"></div></div>
+    </div>
+
+    <div class="analysis-item">
+        <span>Communication</span>
+        <div class="bar"><div style="width:95%"></div></div>
+    </div>
+
+    <div class="analysis-item">
+        <span>Quality Assurance</span>
+        <div class="bar"><div style="width:97%"></div></div>
+    </div>
+
+     <div class="analysis-item">
+        <span>Administrative</span>
+        <div class="bar"><div style="width:97%"></div></div>
+    </div>
+
+     <div class="analysis-item">
+        <span>Technical Support</span>
+        <div class="bar"><div style="width:97%"></div></div>
+    </div>
+
+</section>
+
+<section id="expertise" class="section-card">
+    <h2>SKILL MATRIX</h2>
+
+    <div class="skills-grid">
+        <div class="skill-card">Project Planning</div>
+        <div class="skill-card">Leadership</div>
+        <div class="skill-card">Quality Assurance</div>
+        <div class="skill-card">Documentation</div>
+        <div class="skill-card">Business Analysis</div>
+        <div class="skill-card">Client Coordination</div>
+        <div class="skill-card">Sales Support</div>
+        <div class="skill-card">Strategic Thinking</div>
+    </div>
+</section>
+
+<section id="contact" class="section-card">
+    <h2>Let's Connect ^^</h2>
+
+    <div class="contact-grid">
+        <div><i class="fas fa-phone"></i> 0935-144-7309</div>
+        <div><i class="fas fa-envelope"></i> johnremigio018@gmail.com</div>
+        <div><i class="fas fa-location-dot"></i> Calamba City, Laguna</div>
+    </div>
+</section>
+
+</main>
+</div>
+
+<script src="js/app.js"></script>
+<script src="js/navigation.js"></script>
+<script src="js/clock.js"></script>
+<script src="js/counter.js"></script>
+<script src="js/scanner.js"></script>
+
+</body>
+</html>
